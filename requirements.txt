@@ -1,0 +1,25 @@
+# Core
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.24.0
+scipy>=1.10.0
+scikit-learn>=1.2.0
+
+# Physiological signal processing
+# (R-peak detection handled via scipy.signal.find_peaks — no extra dep needed)
+
+# XAI
+lime>=0.2.0.1
+shap>=0.41.0
+captum>=0.6.0        # DeepLIFT attribution (replaces shap.DeepExplainer)
+
+# Data augmentation
+imbalanced-learn>=0.10.0   # SMOTE
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Experiment tracking (optional)
+tqdm>=4.65.0
+pandas>=2.0.0
