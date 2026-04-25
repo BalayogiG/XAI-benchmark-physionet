@@ -84,21 +84,3 @@ We use the **PhysioNet/CinC Challenge 2017** dataset (Clifford et al., 2017):
 
 Download at: https://physionet.org/content/challenge-2017/1.0.0/
 
----
-
-## Citation
-
-If you use this code, please cite:
-```bibtex
-@article{xai_ecg_benchmark_2024,
-  title   = {Benchmarking Explainable AI Methods for Physiological Signal Classification},
-  author  = {Research Authors},
-  journal = {Journal of Biomedical Informatics},
-  year    = {2024}
-}
-```
-
----
-
-## License
-MIT License. See `LICENSE` for details.
